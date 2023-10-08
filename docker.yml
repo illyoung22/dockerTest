@@ -1,0 +1,81 @@
+ docker
+ docker ps
+ docker run
+ docker run nginx
+ docker images
+ docker ps
+ docker ps -l
+ docker ps -a
+ docker run nginx -n aaa
+ docker run --name aaa nginx
+ docker px
+ docker ps
+ docker logs
+ docker logs aa
+ docker logs aaa
+ docker run --itd --name aaa nginx
+ docker run --it --name aaa nginx
+ docker run it --name aaa nginx
+ docker run -it --name aaa nginx
+ docker run -i -t --name aaa nginx
+ docker run -itd --name aaa nginx
+ docker ps
+ docker rm aaa
+ docker stop
+ docker stop aaa
+ docker rm aaa
+ docker images
+ docker rmi
+ docker rmi nginx
+ docker images
+ docker pull nginx
+ docker images
+ docker rmi nginx
+ docker run -itd --name aaa nginx
+ docker images
+ docker stop aaa
+ docker ps -a
+ docker run -itd --name aaa nginx
+ docker run -itd --name nginx nginx
+ docker ps -a
+ docker rm aaa
+ docker rm nginx
+ docker stop nginx
+ docker rm nginx
+ docker ps
+ docker run -itd --name nginx nginx
+ docker run -itd -p 50000:80 --name nginx nginx
+ docker px
+ docker ps
+ docker run -itd -p 50000:80 --name nginx nginx
+ docker ps
+ docker stop nginx
+ docker rm nginx
+ docker run -itd --name nginx nginx
+ docker ps
+ docker stop nginx
+ docker rm nginx
+ docker run -itd -p 80:80 --name nginx nginx
+ docker ps
+ docker run -itd -p 50000:80 --name nginx nginx
+ docker run -itd -p 50000:80 --name nginx2 nginx
+ docker list
+ docker ps
+ docker run -itd -p 443:80 --name nginx2 nginx
+ docker run -itd -p 443:80 --name nginx4 nginx
+ docker ps
+ docker run -itd -p 50000:80 -p 80:80  --name nginx3 nginx
+ docker ps
+ docker stop nginx
+ docker stop nginx2
+ docker rm nginx2
+ docker rm nginx
+ docker run -itd -p 50000:80 -p 80:80  --name nginx nginx
+ docker ps
+ docker exec -it nginx sh
+ docker exec -it nginx bash
+ docker inspect nginx
+ gh repo create dockerTest
+ gh repo create dockerTest --public
+ gh repo clone illyoung22/dockerTest
+ cd dockerTest
